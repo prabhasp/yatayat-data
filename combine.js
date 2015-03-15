@@ -16,11 +16,12 @@ console.log(routesJSON.features.length + ' routes found');
 var combinedJSON = {
   "type": "FeatureCollection",
   "features": []};
-var featureCount = 0;
 for (var i = 0; i < routesJSON.features.length; i++){	
 	var route = routesJSON.features[i];
-	combinedJSON.features[featureCount] = route;
-	featureCount ++;
+	combinedJSON.features[i] = {
+    "type": "FeatureCollection",
+    "features": []};
+    combinedJSON.features[i].features[0] = route;	
 	console.log('Snappign points to route ' + route.properties.name);
 	var snaps = 0;
 	for(var j = 0; j < stopsJSON.features.length; j++){
@@ -30,9 +31,8 @@ for (var i = 0; i < routesJSON.features.length; i++){
 		if(distance < 0.02){
 			// console.log(snapped);
 			//Write to the file here
-			combinedJSON.features[featureCount]= stop;
-			combinedJSON.features[featureCount].geometry.coordinates = snapped.geometry.coordinates;
-			featureCount++;
+			combinedJSON.features[i].features[snaps + 1]= stop;
+			combinedJSON.features[i].features[snaps + 1].geometry.coordinates = snapped.geometry.coordinates;
 			snaps++;
 		}
 	}
