@@ -1,9 +1,6 @@
 {
   "type": "FeatureCollection",
-  "generator": "overpass-turbo",
-  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2015-03-04T03:51:02Z",
-  "features": [
+    "features": [
     {
       "type": "Feature",
       "id": "node/31019074",
@@ -60,7 +57,7 @@
         "@id": "node/31148719",
         "int_name": "Charkhal",
         "name": "Dillibazaar stop",
-        "name:bg": "चारखाल",
+        "name:bg": "??????",
         "public_transport": "stop_position"
       },
       "geometry": {
@@ -124,9 +121,9 @@
       "id": "node/31150664",
       "properties": {
         "@id": "node/31150664",
-        "name": "Sinamangal/Ring Road Stop सिनामंगल",
+        "name": "Sinamangal/Ring Road Stop ????????",
         "name:en": "Sinamangal/Ring Road Stop",
-        "name:ne": "सिनामंगल",
+        "name:ne": "????????",
         "public_transport": "stop_position"
       },
       "geometry": {
@@ -143,7 +140,7 @@
       "properties": {
         "@id": "node/31151483",
         "name": "Chabahil",
-        "name:ne": "चाबाहील",
+        "name:ne": "???????",
         "public_transport": "stop_position"
       },
       "geometry": {
@@ -1505,7 +1502,7 @@
       "id": "node/1273357490",
       "properties": {
         "@id": "node/1273357490",
-        "name": "Kamaladi Road (कमलादी) stop",
+        "name": "Kamaladi Road (??????) stop",
         "public_transport": "stop_position"
       },
       "geometry": {
@@ -1908,7 +1905,7 @@
         "@id": "node/1393448749",
         "name": "Satdobato",
         "name:en": "Satdobato",
-        "name:ne": "सातदोवाटो",
+        "name:ne": "?????????",
         "place": "suburb",
         "public_transport": "stop_position"
       },
@@ -4240,9 +4237,9 @@
       "id": "node/2993444541",
       "properties": {
         "@id": "node/2993444541",
-        "name": "Sinamangal/Ring Road Stop सिनामंगल",
+        "name": "Sinamangal/Ring Road Stop ????????",
         "name:en": "Sinamangal/Ring Road Stop",
-        "name:ne": "सिनामंगल",
+        "name:ne": "????????",
         "public_transport": "stop_position"
       },
       "geometry": {
